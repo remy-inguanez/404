@@ -1,0 +1,43 @@
+h1{
+	text-shadow: 0 0 3px #00264d;
+}
+
+body {
+	font-family: Monospace;
+	color: #0B173B;
+	background-color: #FA5858;
+}
+
+p {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+.aller {
+  animation-direction: normal;
+}
+
+.retour {
+  animation-direction: reverse;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%;
+  }
+ 
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+  #texte
+  {
+	  text-align:center;
+  }
+  footer {
+    text-align: center;
+  }
